@@ -1,0 +1,5 @@
+'InputEncoder class that takes the input shape, patch size, and embedding
+dimension as arguments.
+The forward method of the InputEncoder class performs the input encoding steps.
+It reshapes the input image into patches, flattens the patches, applies linear
+projection, and adds positional embeddings.'
