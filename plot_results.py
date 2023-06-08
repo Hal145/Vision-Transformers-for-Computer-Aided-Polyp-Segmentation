@@ -31,10 +31,9 @@ def plot_images(dir1, dir2, dir3, image_name):
     plt.show()
 
 # Example usage
-dir1 = '/mnt/Depolama/BMCOURSES/4th_term/BM686/assignments/Final/Kvasir-SEG/test/blended_images_with_masks'
-dir2 = '/home/hicran/Desktop/Medical-Transformer/results2/blended_images_with_masks '
-dir3 = '/home/hicran/Desktop/Medical-Transformer/results3/blended_images_with_masks '
-image_name = 'cju0u2g7pmnux0801vkk47ivj.jpg'
-# image_name = 'cju1d96gsv62d09881b3wecw2.jpg'
+dir1 = ''
+dir2 = ''
+dir3 = ''
+image_name = ''
 
 plot_images(dir1, dir2, dir3, image_name)
