@@ -44,8 +44,8 @@ def calculate_scores(original_masks_path, generated_masks_path):
     return iou, accuracy, dsc
 
 # Example usage
-original_masks_path = "/mnt/Depolama/BMCOURSES/4th_term/BM686/assignments/Final/Kvasir-SEG/test/labelcol"
-generated_masks_path = "/home/hicran/Desktop/Medical-Transformer/results2/test_results"
+original_masks_path = "path/to/original_labels"
+generated_masks_path = "path/to/test_results"
 
 iou_score, accuracy_score, dsc_score = calculate_scores(original_masks_path, generated_masks_path)
 print("Intersection over Union (IoU):", iou_score)
